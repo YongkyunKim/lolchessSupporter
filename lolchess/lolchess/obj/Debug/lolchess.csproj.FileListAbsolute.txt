@@ -1,0 +1,9 @@
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\bin\Debug\lolchess.exe.config
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\bin\Debug\lolchess.exe
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\bin\Debug\lolchess.pdb
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\obj\Debug\lolchess.csprojAssemblyReference.cache
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\obj\Debug\lolchess.Form1.resources
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\obj\Debug\lolchess.Properties.Resources.resources
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\obj\Debug\lolchess.csproj.GenerateResource.cache
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\obj\Debug\lolchess.exe
+C:\Users\Nature\Desktop\Github\First\lolchessSupporter\lolchess\lolchess\obj\Debug\lolchess.pdb
