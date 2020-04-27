@@ -1,0 +1,6 @@
+C:\Users\Nature\Desktop\코딩\c#\Firtst\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Nature\Desktop\코딩\c#\Firtst\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Nature\Desktop\코딩\c#\Firtst\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Nature\Desktop\코딩\c#\Firtst\ConsoleApp1\ConsoleApp1\obj\Debug\Lolchess.csprojAssemblyReference.cache
+C:\Users\Nature\Desktop\코딩\c#\Firtst\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Nature\Desktop\코딩\c#\Firtst\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
