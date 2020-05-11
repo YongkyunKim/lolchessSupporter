@@ -9,7 +9,7 @@ namespace lolchess
     class Item
     {
         public enum BaseItem{
-            BFSword,
+            BFSword = 1,
             RecurveBow,
             ChainVest,
             NegatronCloak,
@@ -21,7 +21,7 @@ namespace lolchess
         }
 
         public enum CombItem{
-            Deathblade = 1,
+            Deathblade = 11,
             GiantSlayer,
             GuardianAngel,
             BloodThirster,
@@ -30,7 +30,7 @@ namespace lolchess
             ZekesHerald,
             BladeRuinedKing,
             InfinityEdge,
-            RapidFirecannon = 11,
+            RapidFirecannon = 22,
             TitansResolve,
             RunnansHurricane,
             GuinsooRageblade,
@@ -38,44 +38,58 @@ namespace lolchess
             ZzRotPortal,
             InfiltratorsTalons,
             LastWhisper,
-            BranbleVest = 21,
+            BranbleVest = 33,
             SwordBreaker,
             LocketOfTheIronSolari,
             FrozenHeart,
             RedBuff,
             RebelMedal,
             ShroudOfStillness,
-            DragonsClaw = 31,
+            DragonsClaw = 44,
             IonicSpark,
             ChaliceOfFavor,
             Zephyr,
             CelestialOrb,
             Quicksilver,
-            RabadonsDeathcap =41,
+            RabadonsDeathcap = 55,
             LudensEcho,
             Morellonomicon,
             DemolitionistsCharge,
             JeweledGauntlet,
-            SeraphsEmbrace = 51,
+            SeraphsEmbrace = 66,
             Redemption,
             StarGuardiansCharm,
             HandOfJustice,
-            WarmogsArmor = 61,
+            WarmogsArmor = 77,
             ProtectorsChestguard,
             TrapClaw,
-            ForceOfNature = 71,
+            ForceOfNature = 88,
             DarkStarsHeart,
-            ThiefsGloves = 81
+            ThiefsGloves = 99
         }
 
-        public CombItem Combination(BaseItem item1, BaseItem item2)
+        public int Combination(BaseItem item1, BaseItem item2)
+        {
+            int temp = 0;
+            int combResult = 0;
+            if (item1 > item2)
+            {
+                temp = (int)item1;
+                item1 = item2;
+                item2 = (BaseItem)temp;
+            }
+
+            combResult = (int)item1 * 10 + (int)item2;
+
+            return combResult;
+        }
+
+        public int Dismantle (CombItem cItem0)
         {
 
 
-            return CombItem.Deathblade;
-
+            
         }
-
 
 
 

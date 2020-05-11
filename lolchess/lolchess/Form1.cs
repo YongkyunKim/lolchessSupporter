@@ -19,5 +19,13 @@ namespace lolchess
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Item btn1_item = new Item();
+            int combResult = 0;
+            champion Ahri = new champion();
+                            
+           
+        }
     }
 }
