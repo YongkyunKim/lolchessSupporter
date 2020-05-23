@@ -8,6 +8,7 @@ namespace lolchess
 {
     class Item
     {
+        
         public enum BaseItem{
             BFSword = 1,
             RecurveBow,
@@ -68,7 +69,7 @@ namespace lolchess
             ThiefsGloves = 99
         }
 
-        public int Combination(BaseItem item1, BaseItem item2)
+        public static int Combination(BaseItem item1, BaseItem item2)
         {
             int temp = 0;
             int combResult = 0;
@@ -84,12 +85,6 @@ namespace lolchess
             return combResult;
         }
 
-        public int Dismantle (CombItem cItem0)
-        {
-
-
-            
-        }
 
 
 

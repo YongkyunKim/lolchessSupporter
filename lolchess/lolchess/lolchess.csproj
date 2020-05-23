@@ -46,8 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="champion.cs" />
-    <Compile Include="deck.cs" />
+    <Compile Include="Champion.cs" />
+    <Compile Include="Deck.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
